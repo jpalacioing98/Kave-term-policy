@@ -18,7 +18,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <Link to="/" className="nav-logo" onClick={closeMobileMenu}>
-            <img src="kave.png" className="logo" alt="Kave logo" />
+            <img src="assets/kave.png" className="logo" alt="Kave logo" />
           </Link>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

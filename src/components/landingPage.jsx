@@ -1,4 +1,4 @@
-import kaveLogo from '../assets/Kave.png'
+
 
 
 export default function LandingPage() {
@@ -6,7 +6,7 @@ export default function LandingPage() {
     <div className="landing">
       {/* Hero Section */}
       <section className="hero">
-        <img src={kaveLogo} className="logo" alt="Kave logo" />
+        <img src="assets/kave.png" className="logo" alt="Kave logo" />
         <p className="slogan">Conectando viajes, personas y destinos</p>
         <p>La nueva forma de viajar con tu cooperativa: fácil, rápido y seguro.</p>
         <div className="cta">
