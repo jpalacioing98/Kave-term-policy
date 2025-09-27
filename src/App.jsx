@@ -4,7 +4,7 @@ import LandingPage from "./components/landingPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import DeletePolicy from "./pages/DeletePolicy";
-import kaveLogo from './assets/Kave.png'
+
 import "./App.css";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <Link to="/" className="nav-logo" onClick={closeMobileMenu}>
-            <img src={kaveLogo} className="logo" alt="Kave logo" />
+            <img src="kave.png" className="logo" alt="Kave logo" />
           </Link>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
